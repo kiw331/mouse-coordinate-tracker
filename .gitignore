@@ -1,21 +1,18 @@
-# Build
-target/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
 build/
-.gradle/
-out/
+dist/
+.pytest_cache/
 
-# IDE
+# IDE / OS
 .idea/
-*.iml
 .vscode/
-.classpath
-.project
-.settings/
 .DS_Store
 
 # Logs / env
 *.log
 .env
-# JSP
-src/main/webapp/WEB-INF/classes/
-*.class
